@@ -1,9 +1,8 @@
-
 h1 {
     font-size: 60px;
-    font-family: "Fredoka One";
-    color: ghostwhite;
-    background-color: rgba(187, 236, 255, 0.751);
+    font-family: "Fredoka One", "Helvetica";
+    color: rgb(138, 182, 229);
+    background-color: ghostwhite;
     text-align: center;
     border-radius: 15px 15px 15px 15px;
 
@@ -15,6 +14,8 @@ h2 {
     background-color: ghostwhite;
     border-radius: 15px;
     font-family: "Fredoka One";
+    padding: 15px 10px 15px 10px;
+    
 }
 
 #ranked {
@@ -22,28 +23,50 @@ h2 {
 
 }
 body {
-    background-image: url("/HTMLmeImages/grass_wallpaper.png");
+    background-image: url("./HTMLmeImages/grass_wallpaper.png");
     margin-left: 300px;
     margin-right: 300px;
 }
 
-.topnav a{
-    text-align: center;
+
+
+nav {
+  display: flex;
+  justify-content: center;
 }
+  
+
 
 p {
     background-color: rgba(248, 248, 255, 0.812);    
     color: rgb(23, 23, 23);
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: "Questrial";
+    padding: 15px 10px 15px 10px; 
+    display: flex;
+    font-size: 20px;
+/*     margin: 15px 10px 15px 10px; */
+}
+nav img:hover {  
+    border-radius: 15px;
+    border: 10px double gold;
+    
+  
 }
 
 #flurry {
     color: rgb(250, 117, 208);
-    text-align:
+    
 }
 
 img {
-    border-radius: 15px;
+    border-radius: 30px;
     border: 10px double ghostwhite;
+    margin: 15px;
+}
+
+footer {
+    font-family: "Fredoka One";
+    background-color: ghostwhite;
+    color: rgb(138, 182, 229);
 }
