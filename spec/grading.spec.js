@@ -31,9 +31,6 @@ describe ("Grading Tests: ", function () {
       });
    });
 
-   console.log(window);
-   console.log(container);
-
    it("HTML includes the correct number of certain elements", function() {
          let pElements = container.body.getElementsByTagName("P").length;
          let headerElements = container.body.getElementsByTagName("Header").length;
