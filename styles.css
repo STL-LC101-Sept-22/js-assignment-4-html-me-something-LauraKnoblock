@@ -4,8 +4,11 @@ h1 {
     color: rgb(138, 182, 229);
     background-color: ghostwhite;
     text-align: center;
-    border-radius: 15px 15px 15px 15px;
-
+    border-radius: 20px 20px 20px 20px;
+    padding: 15px 10px 15px 10px;
+    margin: 15px 100px 15px 100px;
+    display: flex;
+    justify-content: center;
  
 }
 
@@ -14,17 +17,20 @@ h2 {
     background-color: ghostwhite;
     border-radius: 15px;
     font-family: "Fredoka One";
-    padding: 15px 10px 15px 10px;
-    
+    padding: 15px 20px;
+    margin: 20px 30px 20px 30px;
+    text-align: center;
+
 }
 
 #mainHeading {
     color: red;
+    margin: 5px 300px 5px 300px;
 
 }
 body {
     background-image: url("./HTMLmeImages/GrassBackground.png");
-    margin: 8px;
+    margin: 50px;
     display: block;
 }
 
@@ -42,10 +48,11 @@ p {
     color: rgb(23, 23, 23);
     border-radius: 10px;
     font-family: "Questrial";
-    padding: 15px 10px 15px 10px; 
+    padding: 25px 10px 25px 10px; 
     display: flex;
     font-size: 20px;
-/*     margin: 15px 10px 15px 10px; */
+    margin: 15px 50px 15px 50px;
+    
 }
 nav img:hover {  
     border-radius: 15px;
@@ -57,6 +64,16 @@ nav img:hover {
 #flurry {
     color: rgb(250, 117, 208);
     
+    
+}
+#marshal {
+    color: rgb(39, 7, 125);
+}
+#barold {
+    color: green;
+}
+#dobie {
+    color: rgb(96, 0, 128);
 }
 
 .funParagraph {
@@ -66,11 +83,16 @@ nav img:hover {
 img {
     border-radius: 30px;
     border: 10px double ghostwhite;
-    margin: 15px;
+    margin: 10px;
+    padding: 2px;
 }
 
 footer {
     font-family: "Fredoka One";
     background-color: ghostwhite;
     color: rgb(138, 182, 229);
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px 200px 5px 200px;
+    
 }
