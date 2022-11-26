@@ -1,1 +1,98 @@
-/* Write your CSS here! */
+h1 {
+    font-size: 60px;
+    font-family: "Fredoka One", "Helvetica";
+    color: rgb(138, 182, 229);
+    background-color: ghostwhite;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    padding: 15px 10px 15px 10px;
+    margin: 15px 100px 15px 100px;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+h2 {
+    font-size: 30px;
+    background-color: ghostwhite;
+    border-radius: 15px;
+    font-family: "Fredoka One";
+    padding: 15px 20px;
+    margin: 20px 30px 20px 30px;
+    text-align: center;
+
+}
+
+#mainHeading {
+    color: red;
+    margin: 5px 300px 5px 300px;
+
+}
+body {
+    background-image: url("./HTMLmeImages/GrassBackground.png");
+    margin: 50px;
+    display: block;
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+  
+
+
+p {
+    background-color: rgba(248, 248, 255, 0.812);    
+    color: rgb(23, 23, 23);
+    border-radius: 10px;
+    font-family: "Questrial";
+    padding: 25px 10px 25px 10px; 
+    display: flex;
+    font-size: 20px;
+    margin: 15px 50px 15px 50px;
+    
+}
+nav img:hover {  
+    border-radius: 15px;
+    border: 10px double gold;
+    
+  
+}
+
+#flurry {
+    color: rgb(250, 117, 208);
+    
+    
+}
+#marshal {
+    color: rgb(39, 7, 125);
+}
+#barold {
+    color: green;
+}
+#dobie {
+    color: rgb(96, 0, 128);
+}
+
+.funParagraph {
+    color: green;
+}
+
+img {
+    border-radius: 30px;
+    border: 10px double ghostwhite;
+    margin: 10px;
+    padding: 2px;
+}
+
+footer {
+    font-family: "Fredoka One";
+    background-color: ghostwhite;
+    color: rgb(138, 182, 229);
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px 200px 5px 200px;
+    
+}
